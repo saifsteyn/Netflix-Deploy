@@ -19,3 +19,4 @@ spec:
         image: nasi101/netflix:latest
         ports:
         - containerPort: 80
+
