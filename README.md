@@ -17,7 +17,7 @@ Update all the packages and then clone the code.
 Clone your application's code repository onto the EC2 instance:
 
 ```bash
-  git clone https://github.com/N4si/DevSecOps-Project.git
+  git clone https://github.com/saifsteyn/Netflix-Deploy.git
 ```
 
 
@@ -190,7 +190,7 @@ Create a CI/CD pipeline in Jenkins to automate your application deployment.
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/N4si/DevSecOps-Project.git'
+                git branch: 'main', url: 'https://github.com/saifsteyn/Netflix-Deploy.git'
             }
         }
         stage("Sonarqube Analysis") {
@@ -285,7 +285,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/N4si/DevSecOps-Project.git'
+                git branch: 'main', url: 'https://github.com/saifsteyn/Netflix-Deploy.git'
             }
         }
         stage("Sonarqube Analysis "){
